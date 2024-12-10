@@ -117,5 +117,5 @@ console.log('Time taken: ', Date.now() - time, 'ms');
 console.log('Graph built successfully!')
 
 writeFileSync(resolve(process.cwd(), 'src/assets/dependencyGraph.json'), JSON.stringify(processedGraph, null, 2));
-writeFileSync(resolve(process.cwd(), 'node_modules/dependency-graph-visualizer/src/visualizer/dependencyGraph.json'), JSON.stringify(processedGraph, null, 2));
-writeFileSync(resolve(process.cwd(), 'node_modules/dependency-graph-visualizer/src/visualizer/bundler.config.json'), JSON.stringify(bundlerConfig, null, 2));
+writeFileSync(resolve(process.cwd(), 'node_modules/frontend-fdg/src/visualizer/dependencyGraph.json'), JSON.stringify(processedGraph, null, 2));
+writeFileSync(resolve(process.cwd(), 'node_modules/frontend-fdg-visualizer/src/visualizer/bundler.config.json'), JSON.stringify(bundlerConfig, null, 2));
