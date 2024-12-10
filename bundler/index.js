@@ -118,4 +118,4 @@ console.log('Graph built successfully!')
 
 writeFileSync(resolve(process.cwd(), 'src/assets/dependencyGraph.json'), JSON.stringify(processedGraph, null, 2));
 writeFileSync(resolve(process.cwd(), 'node_modules/frontend-fdg/src/visualizer/dependencyGraph.json'), JSON.stringify(processedGraph, null, 2));
-writeFileSync(resolve(process.cwd(), 'node_modules/frontend-fdg-visualizer/src/visualizer/bundler.config.json'), JSON.stringify(bundlerConfig, null, 2));
+writeFileSync(resolve(process.cwd(), 'node_modules/frontend-fdg/src/visualizer/bundler.config.json'), JSON.stringify(bundlerConfig, null, 2));
