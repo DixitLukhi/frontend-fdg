@@ -1,8 +1,11 @@
 {
-    "name": "dependency-graph-visualizer",
-    "version": "1.0.0",
-    "description": "",
+    "name": "dependency-graph-construction",
+    "version": "1.0.1",
+    "description": "A powerful tool to construct dependency graphs for JavaScript and TypeScript projects. Useful for project structure analysis and debugging.",
     "main": "bundler/index.js",
+    "bin": {
+        "visualize-graph": "./bin/visualize-graph.js"
+    },
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
@@ -10,8 +13,22 @@
         "eject": "react-scripts eject",
         "lint": "eslint src"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "dependency-graph",
+        "visualizer",
+        "typescript",
+        "javascript",
+        "npm-package",
+        "project-visualization",
+        "babel",
+        "react",
+        "node",
+        "tool"
+    ],
+    "author": {
+        "name": "Dixit Lukhi",
+        "email": "lukhidixit149@gmail.com"
+    },
     "license": "ISC",
     "dependencies": {
         "@babel/cli": "^7.24.7",
@@ -45,6 +62,22 @@
         "globals": "^15.9.0",
         "prettier": "^3.3.2"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DixitLukhi/frontend-fdg.git"
+    },
+    "bugs": {
+        "url": "https://github.com/DixitLukhi/frontend-fdg/issues"
+    },
+    "homepage": "https://github.com/DixitLukhi/frontend-fdg/blob/main/README.md",
+    "files": [
+        "bundler",
+        "bin",
+        "lib",
+        "src",
+        "README.md",
+        "LICENSE"
+    ],
     "browserslist": {
         "production": [
             ">0.2%",
