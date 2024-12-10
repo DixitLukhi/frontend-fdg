@@ -12,27 +12,27 @@ import { endsWithAnyExtension, checkFileExistsWithGivenExtension } from './fileU
 const traverse = _traverse.default;
 
 
-const findFilesWithExtension = ({absolutePath, result}) => {
+const findFilesWithExtension = ({ absolutePath, result }) => {
 
     _forEach(FILE_EXTENSIONS, (extension) => {
-                
-        if (checkFileExistsWithGivenExtension({filePath: absolutePath, extension})) {
+
+        if (checkFileExistsWithGivenExtension({ filePath: absolutePath, extension })) {
             result.push(absolutePath + extension);
             return;
         }
 
-        if (checkFileExistsWithGivenExtension({filePath: absolutePath + '/index', extension})) {
+        if (checkFileExistsWithGivenExtension({ filePath: absolutePath + '/index', extension })) {
             result.push(absolutePath + '/index' + extension);
         }
     });
 };
 
 
-const getFilteredDependencies = ({filename, dependencies}) => {
+const getFilteredDependencies = ({ filename, dependencies }) => {
 
     const filteredDependencies = _reduce(dependencies, (result, dependency) => {
-            
-        const absolutePath = join(dirname(filename), dependency);
+
+        const absolutePath = join(dirname(filename), dependency).replace(/\\/g, '/');;
 
         if (endsWithAnyExtension(absolutePath)) {
 
@@ -42,8 +42,8 @@ const getFilteredDependencies = ({filename, dependencies}) => {
             }
         }
 
-        findFilesWithExtension({absolutePath, result});
-        
+        findFilesWithExtension({ absolutePath, result });
+
         return result;
 
     }, []);
@@ -52,19 +52,19 @@ const getFilteredDependencies = ({filename, dependencies}) => {
 }
 
 
-export const getDependenciesFromAST = ({filename, ast}) => {
+export const getDependenciesFromAST = ({ filename, ast }) => {
 
     const dependenciesSet = new Set();
-    
+
     traverse(ast, {
-        
-        ImportDeclaration({node}) {
-            
+
+        ImportDeclaration({ node }) {
+
             dependenciesSet.add(node?.source?.value);
         },
-        
-        CallExpression({node}) {
-            
+
+        CallExpression({ node }) {
+
             if (node?.callee?.name === 'require' || node?.callee?.type === 'Import') {
                 dependenciesSet.add(node?.arguments[0]?.value);
             }
@@ -72,8 +72,8 @@ export const getDependenciesFromAST = ({filename, ast}) => {
     });
 
     const dependencies = _toArray(dependenciesSet);
-    
-    return getFilteredDependencies({filename, dependencies});
+
+    return getFilteredDependencies({ filename, dependencies });
 };
 
 

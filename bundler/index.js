@@ -15,15 +15,14 @@ import { getDependenciesFromAST, replaceDependenciesWithID } from './utils/depen
 
 const getDependencies = (filename) => {
 
-    if (!endsWithAnyExtension(filename)) 
-    {
+    if (!endsWithAnyExtension(filename)) {
         console.error('Filename:', filename, 'does not end with any of the specified extensions.');
         return null;
     }
 
-    const ast = generateAST(filename); 
-    const dependencies = getDependenciesFromAST({filename, ast});
-    
+    const ast = generateAST(filename);
+    const dependencies = getDependenciesFromAST({ filename, ast });
+
     return {
         id: NodeIDGenerator.getNextID(),
         isFile: true,
@@ -35,7 +34,7 @@ const getDependencies = (filename) => {
 };
 
 const buildGraph = (entry) => {
-    
+
     const root = getDependencies(entry);
 
     if (root == null) {
@@ -44,18 +43,18 @@ const buildGraph = (entry) => {
 
     const bundleNodes = [root];
     const nodesToProcess = [root];
-    
+
     const visited = new Set();
     visited.add(root.name);
-    
+
     while (nodesToProcess.length > 0) {
-            
+
         const node = nodesToProcess.pop();
-        
+
         _forEach(node.dependencies, (path) => {
-            
+
             if (!visited.has(path)) {
-                
+
                 const child = getDependencies(path);
                 bundleNodes.push(child);
                 visited.add(path);
@@ -63,9 +62,9 @@ const buildGraph = (entry) => {
             }
         });
     }
-    
+
     const nodeToIdMap = _reduce(bundleNodes, (result, node) => {
-        
+
         result[node.name] = node.id;
         return result;
 
