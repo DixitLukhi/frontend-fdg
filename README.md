@@ -37,26 +37,85 @@ Below is an overview of the main files and their responsibilities:
 ## Installation and Setup
 Follow the steps below to set up and run the project:
 
-1. Clone the repository:
-```sh
+## Step 1: Create the `assets` Folder
+1. Navigate to the `src` folder of your project.
+2. Create a new folder named `assets`.
+
+## Step 2: Add `babel.config.json`
+1. Create a file named `babel.config.json` in the root directory of the project.
+2. Add the following content:
+
+    ```json
+    {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react",
+            "@babel/preset-typescript"
+        ],
+        "plugins": [
+            ["module-resolver", {
+                "root": ["./src"],
+                "extensions": [
+                    ".native.js", ".native.jsx", ".native.ts", ".native.tsx",
+                    ".web.js", ".web.jsx", ".web.ts", ".web.tsx",
+                    ".android.js", ".android.jsx", ".android.ts", ".android.tsx",
+                    ".ios.js", ".ios.jsx", ".ios.ts", ".ios.tsx",
+                    ".js", ".jsx", ".ts", ".tsx"
+                ]
+            }],
+            ["add-module-exports"]
+        ]
+    }
+    ```
+
+## Step 3: Add `bundler.config.json`
+1. Create a file named `bundler.config.json` in the root directory of the project.
+2. Add the following content:
+
+    ```json
+    {
+        "rootModules": [
+            {
+                "name": "src"
+            }
+        ],
+        "babelConfigFile": "./babel.config.json",
+        "entry": "src/index.js"
+    }
+    ```
+
+## Step 4: Install Required Dependencies
+Run the following command to install the required Babel plugins:
+
+```bash
+npm i babel-plugin-module-resolver babel-plugin-add-module-exports
+```
+
+## Step 5: Clone the Repository
+Clone the `frontend-fdg` repository into the `node_modules` directory of your project:
+
+```bash
 git clone https://github.com/DixitLukhi/frontend-fdg.git
 ```
-2. Navigate to the project directory:
-```sh
-cd frontend-fdg
-```
-3. Install dependencies:
-```sh
-npm install
-```
-4. Run the application:
-```sh
-npm start
+
+## Step 6: Add Script to `package.json`
+1. Open the `package.json` file in the root directory of your project.
+2. Add the following script to the `scripts` section:
+
+    ```json
+    "fdg": "node node_modules/frontend-fdg/bin/visualize-graph"
+    ```
+
+## Step 7: Run the Script
+Run the script from the main project directory using the following command:
+
+```bash
+npm run fdg
 ```
 
-5. Access the application: 
-Open http://localhost:3000 in your browser to view the FDG.
+---
 
+You are now ready to use the `fdg` visualization tool in your project! If you encounter any issues, please double-check the configuration steps above.
 
 ## Steps to Use the FDG Constructor
 
