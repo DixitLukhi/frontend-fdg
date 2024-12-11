@@ -92,10 +92,16 @@ npm i babel-plugin-module-resolver babel-plugin-add-module-exports
 ```
 
 ## Step 5: Clone the Repository
-Clone the `frontend-fdg` repository into the `node_modules` directory of your project:
+Clone the frontend-fdg repository into the node_modules directory of your project:
 
 ```bash
 git clone https://github.com/DixitLukhi/frontend-fdg.git
+```
+
+Add dependency of frontend-fdg in the clone directory with 
+
+```bash
+npm i
 ```
 
 ## Step 6: Add Script to `package.json`
