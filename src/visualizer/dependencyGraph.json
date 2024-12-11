@@ -3,6 +3,42 @@
     "src/index.js": 0,
     "src/App.js": 1,
     "src/reportWebVitals.js": 2,
+<<<<<<< HEAD
+    "src/routes/AllRoutes.js": 3,
+    "src/pages/landingPage/Home.js": 4,
+    "src/pages/pageNotFound/PageNotFound.js": 5,
+    "src/pages/admin/AdminDashboard.js": 6,
+    "src/pages/admin/UserList.js": 7,
+    "src/pages/admin/GuidelineList.js": 8,
+    "src/pages/admin/AppList.js": 9,
+    "src/api/baseUrl.js": 10,
+    "src/component/core/helper.js": 11,
+    "src/api/constApi.js": 12,
+    "src/common/Modals/Modal.js": 13,
+    "src/component/popUp/AddAppPopUp.js": 14,
+    "src/shared/constants.js": 15,
+    "src/component/popUp/AddGuidelinePopUp.js": 16,
+    "src/component/popUp/PolicyPopUp.js": 17,
+    "src/component/core/Header.js": 18,
+    "src/component/popUp/ViewGuidelinePopUp.js": 19,
+    "src/component/popUp/ProofPopUp.js": 20,
+    "src/component/auth/Register.js": 21,
+    "src/component/popUp/AnalyisPopUp.js": 22,
+    "src": 23,
+    "src/routes": 24,
+    "src/pages/landingPage": 25,
+    "src/pages": 26,
+    "src/pages/pageNotFound": 27,
+    "src/pages/admin": 28,
+    "src/api": 29,
+    "src/component/core": 30,
+    "src/component": 31,
+    "src/common/Modals": 32,
+    "src/common": 33,
+    "src/component/popUp": 34,
+    "src/shared": 35,
+    "src/component/auth": 36
+=======
     "src/redux/store.js": 3,
     "src/components/auth/authSlice.js": 4,
     "src/pages/Dashboard/dashboardSlice.js": 5,
@@ -97,6 +133,7 @@
     "src/common/Modals": 94,
     "src/common": 95,
     "src/components/Popup": 96
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
   },
   "nodeToLevelMap": {
     "0": 1,
@@ -109,6 +146,35 @@
     "7": 3,
     "8": 3,
     "9": 3,
+<<<<<<< HEAD
+    "10": 2,
+    "11": 3,
+    "12": 2,
+    "13": 3,
+    "14": 3,
+    "15": 2,
+    "16": 3,
+    "17": 3,
+    "18": 3,
+    "19": 3,
+    "20": 3,
+    "21": 3,
+    "22": 3,
+    "23": 0,
+    "24": 1,
+    "25": 2,
+    "26": 1,
+    "27": 2,
+    "28": 2,
+    "29": 1,
+    "30": 2,
+    "31": 1,
+    "32": 2,
+    "33": 1,
+    "34": 2,
+    "35": 1,
+    "36": 2
+=======
     "10": 3,
     "11": 3,
     "12": 4,
@@ -196,6 +262,7 @@
     "94": 2,
     "95": 1,
     "96": 2
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
   },
   "nodes": {
     "0": {
@@ -204,21 +271,33 @@
       "name": "src/index.js",
       "dependencies": [
         1,
+<<<<<<< HEAD
+        2
+      ],
+      "levelWiseParents": [
+        23
+=======
         2,
         3
       ],
       "levelWiseParents": [
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 1,
       "nearestRootModule": "src",
       "allDependencies": [
         1,
+<<<<<<< HEAD
+        23,
+        2
+=======
         76,
         2,
         3,
         77
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "1": {
@@ -226,18 +305,30 @@
       "isFile": true,
       "name": "src/App.js",
       "dependencies": [
+<<<<<<< HEAD
+        3
+      ],
+      "levelWiseParents": [
+        23
+=======
         24
       ],
       "levelWiseParents": [
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 1,
       "nearestRootModule": "src",
       "allDependencies": [
+        3,
         24,
+<<<<<<< HEAD
+        23
+=======
         91,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "2": {
@@ -246,7 +337,11 @@
       "name": "src/reportWebVitals.js",
       "dependencies": [],
       "levelWiseParents": [
+<<<<<<< HEAD
+        23
+=======
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 1,
@@ -256,13 +351,24 @@
     "3": {
       "id": 3,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/routes/AllRoutes.js",
+=======
       "name": "src/redux/store.js",
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       "dependencies": [
         4,
         5,
         6,
         7,
         8,
+<<<<<<< HEAD
+        9
+      ],
+      "levelWiseParents": [
+        24,
+        23
+=======
         9,
         10,
         11
@@ -270,12 +376,25 @@
       "levelWiseParents": [
         77,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 2,
       "nearestRootModule": "src",
       "allDependencies": [
         4,
+<<<<<<< HEAD
+        25,
+        26,
+        23,
+        5,
+        27,
+        6,
+        28,
+        7,
+        8,
+        9
+=======
         78,
         79,
         76,
@@ -294,11 +413,29 @@
         86,
         11,
         87
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "4": {
       "id": 4,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/pages/landingPage/Home.js",
+      "dependencies": [
+        10,
+        12,
+        17,
+        13,
+        18,
+        11,
+        19,
+        20
+      ],
+      "levelWiseParents": [
+        25,
+        26,
+        23
+=======
       "name": "src/components/auth/authSlice.js",
       "dependencies": [
         23
@@ -307,20 +444,47 @@
         78,
         79,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
+<<<<<<< HEAD
+        10,
+        29,
+        23,
+        12,
+        17,
+        34,
+        31,
+        13,
+        32,
+        33,
+        18,
+        30,
+        11,
+        19,
+        20
+=======
         23,
         89,
         77,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "5": {
       "id": 5,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/pages/pageNotFound/PageNotFound.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        27,
+        26,
+        23
+=======
       "name": "src/pages/Dashboard/dashboardSlice.js",
       "dependencies": [
         22
@@ -329,10 +493,14 @@
         80,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
+<<<<<<< HEAD
+      "allDependencies": []
+=======
       "allDependencies": [
         22,
         88,
@@ -340,10 +508,19 @@
         77,
         76
       ]
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "6": {
       "id": 6,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/pages/admin/AdminDashboard.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        28,
+        26,
+        23
+=======
       "name": "src/pages/Admin/adminSlice.js",
       "dependencies": [
         21
@@ -352,10 +529,14 @@
         82,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
+<<<<<<< HEAD
+      "allDependencies": []
+=======
       "allDependencies": [
         21,
         88,
@@ -363,10 +544,23 @@
         77,
         76
       ]
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "7": {
       "id": 7,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/pages/admin/UserList.js",
+      "dependencies": [
+        10,
+        11,
+        12
+      ],
+      "levelWiseParents": [
+        28,
+        26,
+        23
+=======
       "name": "src/pages/Transactions/transactionSlice.js",
       "dependencies": [
         20
@@ -375,21 +569,46 @@
         83,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
+<<<<<<< HEAD
+        10,
+        29,
+        23,
+        11,
+        30,
+        31,
+        12
+=======
         20,
         88,
         89,
         77,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "8": {
       "id": 8,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/pages/admin/GuidelineList.js",
+      "dependencies": [
+        10,
+        11,
+        12,
+        13,
+        16
+      ],
+      "levelWiseParents": [
+        28,
+        26,
+        23
+=======
       "name": "src/pages/Commission/commissionSlice.js",
       "dependencies": [
         19
@@ -398,21 +617,51 @@
         84,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
+<<<<<<< HEAD
+        10,
+        29,
+        23,
+        11,
+        30,
+        31,
+        12,
+        13,
+        32,
+        33,
+        16,
+        34
+=======
         19,
         88,
         89,
         77,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "9": {
       "id": 9,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/pages/admin/AppList.js",
+      "dependencies": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "levelWiseParents": [
+        28,
+        26,
+        23
+=======
       "name": "src/pages/Cardholder/cardHolderSlice.js",
       "dependencies": [
         18
@@ -421,21 +670,49 @@
         85,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
+<<<<<<< HEAD
+        10,
+        29,
+        23,
+        11,
+        30,
+        31,
+        12,
+        13,
+        32,
+        33,
+        14,
+        34
+=======
         18,
         88,
         89,
         77,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "10": {
       "id": 10,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/api/baseUrl.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        29,
+        23
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src",
+      "allDependencies": []
+=======
       "name": "src/pages/Payments/paymentSlice.js",
       "dependencies": [
         17
@@ -455,10 +732,19 @@
         77,
         76
       ]
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "11": {
       "id": 11,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/core/helper.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        30,
+        31,
+        23
+=======
       "name": "src/pages/Cards/cardslice.js",
       "dependencies": [
         12
@@ -467,10 +753,14 @@
         87,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
+<<<<<<< HEAD
+      "allDependencies": []
+=======
       "allDependencies": [
         12,
         88,
@@ -478,10 +768,23 @@
         77,
         76
       ]
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "12": {
       "id": 12,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/api/constApi.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        29,
+        23
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src",
+      "allDependencies": []
+=======
       "name": "src/redux/services/paymentServices/cardservices.js",
       "dependencies": [
         13,
@@ -506,10 +809,22 @@
         77,
         15
       ]
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "13": {
       "id": 13,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/common/Modals/Modal.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        32,
+        33,
+        23
+      ],
+      "children": [],
+      "level": 3,
+=======
       "name": "src/api/constApi.js",
       "dependencies": [],
       "levelWiseParents": [
@@ -518,27 +833,68 @@
       ],
       "children": [],
       "level": 2,
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       "nearestRootModule": "src",
       "allDependencies": []
     },
     "14": {
       "id": 14,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/popUp/AddAppPopUp.js",
+      "dependencies": [
+        10,
+        11,
+        12,
+        15
+      ],
+      "levelWiseParents": [
+        34,
+        31,
+        23
+=======
       "name": "src/redux/services/authHeader.js",
       "dependencies": [],
       "levelWiseParents": [
         89,
         77,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
+<<<<<<< HEAD
+      "allDependencies": [
+        10,
+        29,
+        23,
+        11,
+        30,
+        31,
+        12,
+        15,
+        35
+      ]
+=======
       "allDependencies": []
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "15": {
       "id": 15,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/shared/constants.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        35,
+        23
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src",
+      "allDependencies": []
+=======
       "name": "src/redux/services/axiosApi.js",
       "dependencies": [
         16
@@ -556,10 +912,36 @@
         90,
         76
       ]
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "16": {
       "id": 16,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/popUp/AddGuidelinePopUp.js",
+      "dependencies": [
+        10,
+        12,
+        11
+      ],
+      "levelWiseParents": [
+        34,
+        31,
+        23
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src",
+      "allDependencies": [
+        10,
+        29,
+        23,
+        12,
+        11,
+        30,
+        31
+      ]
+=======
       "name": "src/api/baseUrl.js",
       "dependencies": [],
       "levelWiseParents": [
@@ -570,10 +952,31 @@
       "level": 2,
       "nearestRootModule": "src",
       "allDependencies": []
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "17": {
       "id": 17,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/popUp/PolicyPopUp.js",
+      "dependencies": [
+        10,
+        12
+      ],
+      "levelWiseParents": [
+        34,
+        31,
+        23
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src",
+      "allDependencies": [
+        10,
+        29,
+        23,
+        12
+=======
       "name": "src/redux/services/paymentServices/paymentServices.js",
       "dependencies": [
         13,
@@ -597,11 +1000,38 @@
         89,
         77,
         15
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "18": {
       "id": 18,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/core/Header.js",
+      "dependencies": [
+        13,
+        21,
+        22
+      ],
+      "levelWiseParents": [
+        30,
+        31,
+        23
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src",
+      "allDependencies": [
+        13,
+        32,
+        33,
+        23,
+        21,
+        36,
+        31,
+        22,
+        34
+=======
       "name": "src/redux/services/paymentServices/cardHolderServices.js",
       "dependencies": [
         13,
@@ -625,11 +1055,25 @@
         89,
         77,
         15
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "19": {
       "id": 19,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/popUp/ViewGuidelinePopUp.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        34,
+        31,
+        23
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src",
+      "allDependencies": []
+=======
       "name": "src/redux/services/paymentServices/commissionServices.js",
       "dependencies": [
         13,
@@ -654,10 +1098,30 @@
         77,
         15
       ]
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "20": {
       "id": 20,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/popUp/ProofPopUp.js",
+      "dependencies": [
+        11
+      ],
+      "levelWiseParents": [
+        34,
+        31,
+        23
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src",
+      "allDependencies": [
+        11,
+        30,
+        31,
+        23
+=======
       "name": "src/redux/services/paymentServices/transactionServices.js",
       "dependencies": [
         13,
@@ -681,11 +1145,36 @@
         89,
         77,
         15
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "21": {
       "id": 21,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/auth/Register.js",
+      "dependencies": [
+        10,
+        11,
+        12
+      ],
+      "levelWiseParents": [
+        36,
+        31,
+        23
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src",
+      "allDependencies": [
+        10,
+        29,
+        23,
+        11,
+        30,
+        31,
+        12
+=======
       "name": "src/redux/services/paymentServices/adminServices.js",
       "dependencies": [
         13,
@@ -709,11 +1198,32 @@
         89,
         77,
         15
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "22": {
       "id": 22,
       "isFile": true,
+<<<<<<< HEAD
+      "name": "src/component/popUp/AnalyisPopUp.js",
+      "dependencies": [
+        10,
+        12
+      ],
+      "levelWiseParents": [
+        34,
+        31,
+        23
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src",
+      "allDependencies": [
+        10,
+        29,
+        23,
+        12
+=======
       "name": "src/redux/services/paymentServices/dashboardServices.js",
       "dependencies": [
         13,
@@ -737,10 +1247,89 @@
         89,
         77,
         15
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "23": {
       "id": 23,
+<<<<<<< HEAD
+      "isFile": false,
+      "name": "src",
+      "dependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        17,
+        13,
+        18,
+        11,
+        19,
+        20,
+        16,
+        14,
+        15,
+        21,
+        22
+      ],
+      "level": 0,
+      "nearestRootModule": "src",
+      "levelWiseParents": [],
+      "children": [
+        0,
+        1,
+        2,
+        24,
+        26,
+        29,
+        31,
+        33,
+        35
+      ],
+      "allDependencies": [
+        1,
+        2,
+        3,
+        24,
+        4,
+        25,
+        26,
+        5,
+        27,
+        6,
+        28,
+        7,
+        8,
+        9,
+        10,
+        29,
+        12,
+        17,
+        34,
+        31,
+        13,
+        32,
+        33,
+        18,
+        30,
+        11,
+        19,
+        20,
+        16,
+        14,
+        15,
+        35,
+        21,
+        36,
+        22
+=======
       "isFile": true,
       "name": "src/redux/services/authServices.js",
       "dependencies": [
@@ -764,10 +1353,30 @@
         89,
         77,
         15
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "24": {
       "id": 24,
+<<<<<<< HEAD
+      "isFile": false,
+      "name": "src/routes",
+      "dependencies": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "level": 1,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        23
+      ],
+      "children": [
+        3
+=======
       "isFile": true,
       "name": "src/routes/AllRoutes.js",
       "dependencies": [
@@ -1285,11 +1894,49 @@
         85,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
+<<<<<<< HEAD
+        4,
+        25,
+        26,
+        23,
+        5,
+        27,
+        6,
+        28,
+        7,
+        8,
+        9
+      ]
+    },
+    "25": {
+      "id": 25,
+      "isFile": false,
+      "name": "src/pages/landingPage",
+      "dependencies": [
+        10,
+        12,
+        17,
+        13,
+        18,
+        11,
+        19,
+        20
+      ],
+      "level": 2,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        26,
+        23
+      ],
+      "children": [
+        4
+=======
         16,
         90,
         76,
@@ -1349,11 +1996,167 @@
         85,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
+<<<<<<< HEAD
+        10,
+        29,
+        23,
+        12,
+        17,
+        34,
+        31,
+        13,
+        32,
+        33,
+        18,
+        30,
+        11,
+        19,
+        20
+      ]
+    },
+    "26": {
+      "id": 26,
+      "isFile": false,
+      "name": "src/pages",
+      "dependencies": [
+        10,
+        12,
+        17,
+        13,
+        18,
+        11,
+        19,
+        20,
+        16,
+        14
+      ],
+      "level": 1,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        23
+      ],
+      "children": [
+        25,
+        27,
+        28
+      ],
+      "allDependencies": [
+        10,
+        29,
+        23,
+        12,
+        17,
+        34,
+        31,
+        13,
+        32,
+        33,
+        18,
+        30,
+        11,
+        19,
+        20,
+        16,
+        14
+      ]
+    },
+    "27": {
+      "id": 27,
+      "isFile": false,
+      "name": "src/pages/pageNotFound",
+      "dependencies": [],
+      "level": 2,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        26,
+        23
+      ],
+      "children": [
+        5
+      ],
+      "allDependencies": []
+    },
+    "28": {
+      "id": 28,
+      "isFile": false,
+      "name": "src/pages/admin",
+      "dependencies": [
+        10,
+        11,
+        12,
+        13,
+        16,
+        14
+      ],
+      "level": 2,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        26,
+        23
+      ],
+      "children": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "allDependencies": [
+        10,
+        29,
+        23,
+        11,
+        30,
+        31,
+        12,
+        13,
+        32,
+        33,
+        16,
+        34,
+        14
+      ]
+    },
+    "29": {
+      "id": 29,
+      "isFile": false,
+      "name": "src/api",
+      "dependencies": [],
+      "level": 1,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        23
+      ],
+      "children": [
+        10,
+        12
+      ],
+      "allDependencies": []
+    },
+    "30": {
+      "id": 30,
+      "isFile": false,
+      "name": "src/component/core",
+      "dependencies": [
+        13,
+        21,
+        22
+      ],
+      "level": 2,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        31,
+        23
+      ],
+      "children": [
+        11,
+        18
+=======
         16,
         90,
         76,
@@ -1689,11 +2492,137 @@
         87,
         81,
         76
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
+<<<<<<< HEAD
+        13,
+        32,
+        33,
+        23,
+        21,
+        36,
+        31,
+        22,
+        34
+      ]
+    },
+    "31": {
+      "id": 31,
+      "isFile": false,
+      "name": "src/component",
+      "dependencies": [
+        10,
+        11,
+        12,
+        15,
+        13,
+        21,
+        22
+      ],
+      "level": 1,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        23
+      ],
+      "children": [
+        30,
+        34,
+        36
+      ],
+      "allDependencies": [
+        10,
+        29,
+        23,
+        11,
+        30,
+        12,
+        15,
+        35,
+        13,
+        32,
+        33,
+        21,
+        36,
+        22,
+        34
+      ]
+    },
+    "32": {
+      "id": 32,
+      "isFile": false,
+      "name": "src/common/Modals",
+      "dependencies": [],
+      "level": 2,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        33,
+        23
+      ],
+      "children": [
+        13
+      ],
+      "allDependencies": []
+    },
+    "33": {
+      "id": 33,
+      "isFile": false,
+      "name": "src/common",
+      "dependencies": [],
+      "level": 1,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        23
+      ],
+      "children": [
+        32
+      ],
+      "allDependencies": []
+    },
+    "34": {
+      "id": 34,
+      "isFile": false,
+      "name": "src/component/popUp",
+      "dependencies": [
+        10,
+        11,
+        12,
+        15
+      ],
+      "level": 2,
+      "nearestRootModule": "src",
+      "levelWiseParents": [
+        31,
+        23
+      ],
+      "children": [
+        14,
+        16,
+        17,
+        19,
+        20,
+        22
+      ],
+      "allDependencies": [
+        10,
+        29,
+        23,
+        11,
+        30,
+        31,
+        12,
+        15,
+        35
+      ]
+    },
+    "35": {
+      "id": 35,
+      "isFile": false,
+      "name": "src/shared",
+=======
         16,
         90,
         76,
@@ -3275,10 +4204,28 @@
       "id": 95,
       "isFile": false,
       "name": "src/common",
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       "dependencies": [],
       "level": 1,
       "nearestRootModule": "src",
       "levelWiseParents": [
+<<<<<<< HEAD
+        23
+      ],
+      "children": [
+        15
+      ],
+      "allDependencies": []
+    },
+    "36": {
+      "id": 36,
+      "isFile": false,
+      "name": "src/component/auth",
+      "dependencies": [
+        10,
+        11,
+        12
+=======
         76
       ],
       "children": [
@@ -3297,10 +4244,27 @@
         61,
         18,
         9
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "level": 2,
       "nearestRootModule": "src",
       "levelWiseParents": [
+<<<<<<< HEAD
+        31,
+        23
+      ],
+      "children": [
+        21
+      ],
+      "allDependencies": [
+        10,
+        29,
+        23,
+        11,
+        30,
+        31,
+        12
+=======
         79,
         76
       ],
@@ -3333,6 +4297,7 @@
         77,
         9,
         85
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     }
   }

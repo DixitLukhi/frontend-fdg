@@ -33,6 +33,10 @@ const getFilteredDependencies = ({ filename, dependencies }) => {
     const filteredDependencies = _reduce(dependencies, (result, dependency) => {
 
         const absolutePath = join(dirname(filename), dependency).replace(/\\/g, '/');;
+<<<<<<< HEAD
+        console.log(absolutePath);
+=======
+>>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
 
         if (endsWithAnyExtension(absolutePath)) {
 
