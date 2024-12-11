@@ -3,7 +3,6 @@
     "src/index.js": 0,
     "src/App.js": 1,
     "src/reportWebVitals.js": 2,
-<<<<<<< HEAD
     "src/routes/AllRoutes.js": 3,
     "src/pages/landingPage/Home.js": 4,
     "src/pages/pageNotFound/PageNotFound.js": 5,
@@ -38,102 +37,6 @@
     "src/component/popUp": 34,
     "src/shared": 35,
     "src/component/auth": 36
-=======
-    "src/redux/store.js": 3,
-    "src/components/auth/authSlice.js": 4,
-    "src/pages/Dashboard/dashboardSlice.js": 5,
-    "src/pages/Admin/adminSlice.js": 6,
-    "src/pages/Transactions/transactionSlice.js": 7,
-    "src/pages/Commission/commissionSlice.js": 8,
-    "src/pages/Cardholder/cardHolderSlice.js": 9,
-    "src/pages/Payments/paymentSlice.js": 10,
-    "src/pages/Cards/cardslice.js": 11,
-    "src/redux/services/paymentServices/cardservices.js": 12,
-    "src/api/constApi.js": 13,
-    "src/redux/services/authHeader.js": 14,
-    "src/redux/services/axiosApi.js": 15,
-    "src/api/baseUrl.js": 16,
-    "src/redux/services/paymentServices/paymentServices.js": 17,
-    "src/redux/services/paymentServices/cardHolderServices.js": 18,
-    "src/redux/services/paymentServices/commissionServices.js": 19,
-    "src/redux/services/paymentServices/transactionServices.js": 20,
-    "src/redux/services/paymentServices/adminServices.js": 21,
-    "src/redux/services/paymentServices/dashboardServices.js": 22,
-    "src/redux/services/authServices.js": 23,
-    "src/routes/AllRoutes.js": 24,
-    "src/components/auth/ForgotPassword.js": 25,
-    "src/components/auth/Login.js": 26,
-    "src/components/auth/Register.js": 27,
-    "src/components/auth/VerificationCode.js": 28,
-    "src/components/auth/ResetPassword.js": 29,
-    "src/components/SideBar/SideBar.js": 30,
-    "src/components/auth/VerifyReset.js": 31,
-    "src/components/auth/RequireAuth.js": 32,
-    "src/pages/Dashboard/Dashboard.js": 33,
-    "src/pages/Dashboard/services/utils.js": 34,
-    "src/components/auth/UseAuth.js": 35,
-    "src/components/auth/AuthProvider.js": 36,
-    "src/pages/Cardholder/CardHolderList.js": 37,
-    "src/pages/Admin/AdminAccountDetails.js": 38,
-    "src/pages/Admin/AdminCards.js": 39,
-    "src/pages/Admin/AdminAddCard.js": 40,
-    "src/pages/Cardholder/CreateAccount.js": 41,
-    "src/pages/Cardholder/SingleCardHolderDetail.js": 42,
-    "src/pages/Cardholder/SingleCardHolderCardsList.js": 43,
-    "src/pages/Transactions/TransactionHistory.js": 44,
-    "src/pages/Payments/Payments.js": 45,
-    "src/pages/Payments/SinglePaymentRequestDetails.js": 46,
-    "src/pages/Payments/SinglePaymentPaidDetails.js": 47,
-    "src/pages/Commission/Commission.js": 48,
-    "src/pages/Commission/CommissionPaidHistory.js": 49,
-    "src/pages/Commission/CommissionUnpaidHistory.js": 50,
-    "src/pages/Cardholder/CardHolderAddCard.js": 51,
-    "src/pages/Commission/SingleUserCommissionDetails.js": 52,
-    "src/pages/Admin/AdminWallet.js": 53,
-    "src/pages/Cardholder/SingleCardDetails.js": 54,
-    "src/pages/Cardholder/CardHolderEditCard.js": 55,
-    "src/pages/Cards/CardList.js": 56,
-    "src/pages/Cards/CardDetails.js": 57,
-    "src/pages/Cards/EditCardDetails.js": 58,
-    "src/pages/Admin/AdminCardDetails.js": 59,
-    "src/pages/Admin/AdminEditCard.js": 60,
-    "src/common/Modals/Modal.js": 61,
-    "src/components/Popup/SinglePhotoView.js": 62,
-    "src/components/Popup/PaymentDetails.js": 63,
-    "src/components/Popup/CardHolderDueAmount.js": 64,
-    "src/pages/Admin/AdminCreditCards.js": 65,
-    "src/pages/Admin/AdminDebitCards.js": 66,
-    "src/pages/Payments/CycleRequests.js": 67,
-    "src/pages/Payments/DepositRequests.js": 68,
-    "src/pages/Payments/WithdrawRequests.js": 69,
-    "src/components/Popup/WithdrawPaymentDetails.js": 70,
-    "src/components/Popup/Summary.js": 71,
-    "src/components/Popup/DepositPaymentDetails.js": 72,
-    "src/components/Popup/UserVerify.js": 73,
-    "src/components/Popup/UserReject.js": 74,
-    "src/components/Popup/ChangePassword.js": 75,
-    "src": 76,
-    "src/redux": 77,
-    "src/components/auth": 78,
-    "src/components": 79,
-    "src/pages/Dashboard": 80,
-    "src/pages": 81,
-    "src/pages/Admin": 82,
-    "src/pages/Transactions": 83,
-    "src/pages/Commission": 84,
-    "src/pages/Cardholder": 85,
-    "src/pages/Payments": 86,
-    "src/pages/Cards": 87,
-    "src/redux/services/paymentServices": 88,
-    "src/redux/services": 89,
-    "src/api": 90,
-    "src/routes": 91,
-    "src/components/SideBar": 92,
-    "src/pages/Dashboard/services": 93,
-    "src/common/Modals": 94,
-    "src/common": 95,
-    "src/components/Popup": 96
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
   },
   "nodeToLevelMap": {
     "0": 1,
@@ -146,7 +49,6 @@
     "7": 3,
     "8": 3,
     "9": 3,
-<<<<<<< HEAD
     "10": 2,
     "11": 3,
     "12": 2,
@@ -174,95 +76,6 @@
     "34": 2,
     "35": 1,
     "36": 2
-=======
-    "10": 3,
-    "11": 3,
-    "12": 4,
-    "13": 2,
-    "14": 3,
-    "15": 3,
-    "16": 2,
-    "17": 4,
-    "18": 4,
-    "19": 4,
-    "20": 4,
-    "21": 4,
-    "22": 4,
-    "23": 3,
-    "24": 2,
-    "25": 3,
-    "26": 3,
-    "27": 3,
-    "28": 3,
-    "29": 3,
-    "30": 3,
-    "31": 3,
-    "32": 3,
-    "33": 3,
-    "34": 4,
-    "35": 3,
-    "36": 3,
-    "37": 3,
-    "38": 3,
-    "39": 3,
-    "40": 3,
-    "41": 3,
-    "42": 3,
-    "43": 3,
-    "44": 3,
-    "45": 3,
-    "46": 3,
-    "47": 3,
-    "48": 3,
-    "49": 3,
-    "50": 3,
-    "51": 3,
-    "52": 3,
-    "53": 3,
-    "54": 3,
-    "55": 3,
-    "56": 3,
-    "57": 3,
-    "58": 3,
-    "59": 3,
-    "60": 3,
-    "61": 3,
-    "62": 3,
-    "63": 3,
-    "64": 3,
-    "65": 3,
-    "66": 3,
-    "67": 3,
-    "68": 3,
-    "69": 3,
-    "70": 3,
-    "71": 3,
-    "72": 3,
-    "73": 3,
-    "74": 3,
-    "75": 3,
-    "76": 0,
-    "77": 1,
-    "78": 2,
-    "79": 1,
-    "80": 2,
-    "81": 1,
-    "82": 2,
-    "83": 2,
-    "84": 2,
-    "85": 2,
-    "86": 2,
-    "87": 2,
-    "88": 3,
-    "89": 2,
-    "90": 1,
-    "91": 1,
-    "92": 2,
-    "93": 3,
-    "94": 2,
-    "95": 1,
-    "96": 2
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
   },
   "nodes": {
     "0": {
@@ -271,33 +84,18 @@
       "name": "src/index.js",
       "dependencies": [
         1,
-<<<<<<< HEAD
         2
       ],
       "levelWiseParents": [
         23
-=======
-        2,
-        3
-      ],
-      "levelWiseParents": [
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 1,
       "nearestRootModule": "src",
       "allDependencies": [
         1,
-<<<<<<< HEAD
         23,
         2
-=======
-        76,
-        2,
-        3,
-        77
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "1": {
@@ -305,17 +103,10 @@
       "isFile": true,
       "name": "src/App.js",
       "dependencies": [
-<<<<<<< HEAD
         3
       ],
       "levelWiseParents": [
         23
-=======
-        24
-      ],
-      "levelWiseParents": [
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 1,
@@ -323,12 +114,7 @@
       "allDependencies": [
         3,
         24,
-<<<<<<< HEAD
         23
-=======
-        91,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "2": {
@@ -337,11 +123,7 @@
       "name": "src/reportWebVitals.js",
       "dependencies": [],
       "levelWiseParents": [
-<<<<<<< HEAD
         23
-=======
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 1,
@@ -351,39 +133,24 @@
     "3": {
       "id": 3,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/routes/AllRoutes.js",
-=======
-      "name": "src/redux/store.js",
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       "dependencies": [
         4,
         5,
         6,
         7,
         8,
-<<<<<<< HEAD
         9
       ],
       "levelWiseParents": [
         24,
         23
-=======
-        9,
-        10,
-        11
-      ],
-      "levelWiseParents": [
-        77,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 2,
       "nearestRootModule": "src",
       "allDependencies": [
         4,
-<<<<<<< HEAD
         25,
         26,
         23,
@@ -394,32 +161,11 @@
         7,
         8,
         9
-=======
-        78,
-        79,
-        76,
-        5,
-        80,
-        81,
-        6,
-        82,
-        7,
-        83,
-        8,
-        84,
-        9,
-        85,
-        10,
-        86,
-        11,
-        87
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "4": {
       "id": 4,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/pages/landingPage/Home.js",
       "dependencies": [
         10,
@@ -435,22 +181,11 @@
         25,
         26,
         23
-=======
-      "name": "src/components/auth/authSlice.js",
-      "dependencies": [
-        23
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
-<<<<<<< HEAD
         10,
         29,
         23,
@@ -466,90 +201,41 @@
         11,
         19,
         20
-=======
-        23,
-        89,
-        77,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "5": {
       "id": 5,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/pages/pageNotFound/PageNotFound.js",
       "dependencies": [],
       "levelWiseParents": [
         27,
         26,
         23
-=======
-      "name": "src/pages/Dashboard/dashboardSlice.js",
-      "dependencies": [
-        22
-      ],
-      "levelWiseParents": [
-        80,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
-<<<<<<< HEAD
       "allDependencies": []
-=======
-      "allDependencies": [
-        22,
-        88,
-        89,
-        77,
-        76
-      ]
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "6": {
       "id": 6,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/pages/admin/AdminDashboard.js",
       "dependencies": [],
       "levelWiseParents": [
         28,
         26,
         23
-=======
-      "name": "src/pages/Admin/adminSlice.js",
-      "dependencies": [
-        21
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
-<<<<<<< HEAD
       "allDependencies": []
-=======
-      "allDependencies": [
-        21,
-        88,
-        89,
-        77,
-        76
-      ]
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "7": {
       "id": 7,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/pages/admin/UserList.js",
       "dependencies": [
         10,
@@ -560,22 +246,11 @@
         28,
         26,
         23
-=======
-      "name": "src/pages/Transactions/transactionSlice.js",
-      "dependencies": [
-        20
-      ],
-      "levelWiseParents": [
-        83,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
-<<<<<<< HEAD
         10,
         29,
         23,
@@ -583,19 +258,11 @@
         30,
         31,
         12
-=======
-        20,
-        88,
-        89,
-        77,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "8": {
       "id": 8,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/pages/admin/GuidelineList.js",
       "dependencies": [
         10,
@@ -608,22 +275,11 @@
         28,
         26,
         23
-=======
-      "name": "src/pages/Commission/commissionSlice.js",
-      "dependencies": [
-        19
-      ],
-      "levelWiseParents": [
-        84,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
-<<<<<<< HEAD
         10,
         29,
         23,
@@ -636,19 +292,11 @@
         33,
         16,
         34
-=======
-        19,
-        88,
-        89,
-        77,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "9": {
       "id": 9,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/pages/admin/AppList.js",
       "dependencies": [
         10,
@@ -661,22 +309,11 @@
         28,
         26,
         23
-=======
-      "name": "src/pages/Cardholder/cardHolderSlice.js",
-      "dependencies": [
-        18
-      ],
-      "levelWiseParents": [
-        85,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
-<<<<<<< HEAD
         10,
         29,
         23,
@@ -689,19 +326,11 @@
         33,
         14,
         34
-=======
-        18,
-        88,
-        89,
-        77,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "10": {
       "id": 10,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/api/baseUrl.js",
       "dependencies": [],
       "levelWiseParents": [
@@ -712,68 +341,25 @@
       "level": 2,
       "nearestRootModule": "src",
       "allDependencies": []
-=======
-      "name": "src/pages/Payments/paymentSlice.js",
-      "dependencies": [
-        17
-      ],
-      "levelWiseParents": [
-        86,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        17,
-        88,
-        89,
-        77,
-        76
-      ]
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "11": {
       "id": 11,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/core/helper.js",
       "dependencies": [],
       "levelWiseParents": [
         30,
         31,
         23
-=======
-      "name": "src/pages/Cards/cardslice.js",
-      "dependencies": [
-        12
-      ],
-      "levelWiseParents": [
-        87,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
-<<<<<<< HEAD
       "allDependencies": []
-=======
-      "allDependencies": [
-        12,
-        88,
-        89,
-        77,
-        76
-      ]
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "12": {
       "id": 12,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/api/constApi.js",
       "dependencies": [],
       "levelWiseParents": [
@@ -784,37 +370,10 @@
       "level": 2,
       "nearestRootModule": "src",
       "allDependencies": []
-=======
-      "name": "src/redux/services/paymentServices/cardservices.js",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "levelWiseParents": [
-        88,
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 4,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
-      ]
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "13": {
       "id": 13,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/common/Modals/Modal.js",
       "dependencies": [],
       "levelWiseParents": [
@@ -824,23 +383,12 @@
       ],
       "children": [],
       "level": 3,
-=======
-      "name": "src/api/constApi.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        90,
-        76
-      ],
-      "children": [],
-      "level": 2,
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       "nearestRootModule": "src",
       "allDependencies": []
     },
     "14": {
       "id": 14,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/popUp/AddAppPopUp.js",
       "dependencies": [
         10,
@@ -852,19 +400,10 @@
         34,
         31,
         23
-=======
-      "name": "src/redux/services/authHeader.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        89,
-        77,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
-<<<<<<< HEAD
       "allDependencies": [
         10,
         29,
@@ -876,14 +415,10 @@
         15,
         35
       ]
-=======
-      "allDependencies": []
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "15": {
       "id": 15,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/shared/constants.js",
       "dependencies": [],
       "levelWiseParents": [
@@ -894,30 +429,10 @@
       "level": 2,
       "nearestRootModule": "src",
       "allDependencies": []
-=======
-      "name": "src/redux/services/axiosApi.js",
-      "dependencies": [
-        16
-      ],
-      "levelWiseParents": [
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76
-      ]
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "16": {
       "id": 16,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/popUp/AddGuidelinePopUp.js",
       "dependencies": [
         10,
@@ -941,23 +456,10 @@
         30,
         31
       ]
-=======
-      "name": "src/api/baseUrl.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        90,
-        76
-      ],
-      "children": [],
-      "level": 2,
-      "nearestRootModule": "src",
-      "allDependencies": []
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "17": {
       "id": 17,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/popUp/PolicyPopUp.js",
       "dependencies": [
         10,
@@ -976,37 +478,11 @@
         29,
         23,
         12
-=======
-      "name": "src/redux/services/paymentServices/paymentServices.js",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "levelWiseParents": [
-        88,
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 4,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "18": {
       "id": 18,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/core/Header.js",
       "dependencies": [
         13,
@@ -1031,37 +507,11 @@
         31,
         22,
         34
-=======
-      "name": "src/redux/services/paymentServices/cardHolderServices.js",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "levelWiseParents": [
-        88,
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 4,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "19": {
       "id": 19,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/popUp/ViewGuidelinePopUp.js",
       "dependencies": [],
       "levelWiseParents": [
@@ -1073,37 +523,10 @@
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": []
-=======
-      "name": "src/redux/services/paymentServices/commissionServices.js",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "levelWiseParents": [
-        88,
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 4,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
-      ]
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
     },
     "20": {
       "id": 20,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/popUp/ProofPopUp.js",
       "dependencies": [
         11
@@ -1121,37 +544,11 @@
         30,
         31,
         23
-=======
-      "name": "src/redux/services/paymentServices/transactionServices.js",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "levelWiseParents": [
-        88,
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 4,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "21": {
       "id": 21,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/auth/Register.js",
       "dependencies": [
         10,
@@ -1174,37 +571,11 @@
         30,
         31,
         12
-=======
-      "name": "src/redux/services/paymentServices/adminServices.js",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "levelWiseParents": [
-        88,
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 4,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "22": {
       "id": 22,
       "isFile": true,
-<<<<<<< HEAD
       "name": "src/component/popUp/AnalyisPopUp.js",
       "dependencies": [
         10,
@@ -1223,36 +594,10 @@
         29,
         23,
         12
-=======
-      "name": "src/redux/services/paymentServices/dashboardServices.js",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "levelWiseParents": [
-        88,
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 4,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "23": {
       "id": 23,
-<<<<<<< HEAD
       "isFile": false,
       "name": "src",
       "dependencies": [
@@ -1329,36 +674,10 @@
         21,
         36,
         22
-=======
-      "isFile": true,
-      "name": "src/redux/services/authServices.js",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "levelWiseParents": [
-        89,
-        77,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     },
     "24": {
       "id": 24,
-<<<<<<< HEAD
       "isFile": false,
       "name": "src/routes",
       "dependencies": [
@@ -1376,531 +695,11 @@
       ],
       "children": [
         3
-=======
-      "isFile": true,
-      "name": "src/routes/AllRoutes.js",
-      "dependencies": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33
-      ],
-      "levelWiseParents": [
-        91,
-        76
-      ],
-      "children": [],
-      "level": 2,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        25,
-        78,
-        79,
-        76,
-        26,
-        27,
-        28,
-        29,
-        30,
-        92,
-        31,
-        32,
-        33,
-        80,
-        81
-      ]
-    },
-    "25": {
-      "id": 25,
-      "isFile": true,
-      "name": "src/components/auth/ForgotPassword.js",
-      "dependencies": [
-        16,
-        23
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
-        16,
-        90,
-        76,
-        23,
-        89,
-        77
-      ]
-    },
-    "26": {
-      "id": 26,
-      "isFile": true,
-      "name": "src/components/auth/Login.js",
-      "dependencies": [
-        16,
-        4
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        4,
-        78,
-        79
-      ]
-    },
-    "27": {
-      "id": 27,
-      "isFile": true,
-      "name": "src/components/auth/Register.js",
-      "dependencies": [
-        16,
-        4
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        4,
-        78,
-        79
-      ]
-    },
-    "28": {
-      "id": 28,
-      "isFile": true,
-      "name": "src/components/auth/VerificationCode.js",
-      "dependencies": [
-        16,
-        4,
-        23
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        4,
-        78,
-        79,
-        23,
-        89,
-        77
-      ]
-    },
-    "29": {
-      "id": 29,
-      "isFile": true,
-      "name": "src/components/auth/ResetPassword.js",
-      "dependencies": [
-        16,
-        4
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        4,
-        78,
-        79
-      ]
-    },
-    "30": {
-      "id": 30,
-      "isFile": true,
-      "name": "src/components/SideBar/SideBar.js",
-      "dependencies": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        16,
-        33,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        6,
-        4
-      ],
-      "levelWiseParents": [
-        92,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        37,
-        85,
-        81,
-        76,
-        38,
-        82,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        83,
-        45,
-        86,
-        46,
-        47,
-        48,
-        84,
-        49,
-        50,
-        51,
-        52,
-        16,
-        90,
-        33,
-        80,
-        53,
-        54,
-        55,
-        56,
-        87,
-        57,
-        58,
-        59,
-        60,
-        6,
-        4,
-        78,
-        79
-      ]
-    },
-    "31": {
-      "id": 31,
-      "isFile": true,
-      "name": "src/components/auth/VerifyReset.js",
-      "dependencies": [
-        16,
-        4
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        4,
-        78,
-        79
-      ]
-    },
-    "32": {
-      "id": 32,
-      "isFile": true,
-      "name": "src/components/auth/RequireAuth.js",
-      "dependencies": [
-        35,
-        33,
-        4
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        35,
-        78,
-        79,
-        76,
-        33,
-        80,
-        81,
-        4
-      ]
-    },
-    "33": {
-      "id": 33,
-      "isFile": true,
-      "name": "src/pages/Dashboard/Dashboard.js",
-      "dependencies": [
-        16,
-        34,
-        5
-      ],
-      "levelWiseParents": [
-        80,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        34,
-        93,
-        80,
-        81,
-        5
-      ]
-    },
-    "34": {
-      "id": 34,
-      "isFile": true,
-      "name": "src/pages/Dashboard/services/utils.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        93,
-        80,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 4,
-      "nearestRootModule": "src",
-      "allDependencies": []
-    },
-    "35": {
-      "id": 35,
-      "isFile": true,
-      "name": "src/components/auth/UseAuth.js",
-      "dependencies": [
-        36
-      ],
-      "levelWiseParents": [
-        78,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        36,
-        78,
-        79,
-        76
-      ]
-    },
-    "36": {
-      "id": 36,
-      "isFile": true,
-      "name": "src/components/auth/AuthProvider.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        78,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": []
-    },
-    "37": {
-      "id": 37,
-      "isFile": true,
-      "name": "src/pages/Cardholder/CardHolderList.js",
-      "dependencies": [
-        16,
-        42,
-        61,
-        62,
-        41,
-        5,
-        9
-      ],
-      "levelWiseParents": [
-        85,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        42,
-        85,
-        81,
-        61,
-        94,
-        95,
-        62,
-        96,
-        79,
-        41,
-        5,
-        80,
-        9
-      ]
-    },
-    "38": {
-      "id": 38,
-      "isFile": true,
-      "name": "src/pages/Admin/AdminAccountDetails.js",
-      "dependencies": [
-        61,
-        75,
-        16,
-        6
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        61,
-        94,
-        95,
-        76,
-        75,
-        96,
-        79,
-        16,
-        90,
-        6,
-        82,
-        81
-      ]
-    },
-    "39": {
-      "id": 39,
-      "isFile": true,
-      "name": "src/pages/Admin/AdminCards.js",
-      "dependencies": [
-        16
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76
-      ]
-    },
-    "40": {
-      "id": 40,
-      "isFile": true,
-      "name": "src/pages/Admin/AdminAddCard.js",
-      "dependencies": [
-        16,
-        6
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        6,
-        82,
-        81
-      ]
-    },
-    "41": {
-      "id": 41,
-      "isFile": true,
-      "name": "src/pages/Cardholder/CreateAccount.js",
-      "dependencies": [
-        16,
-        9
-      ],
-      "levelWiseParents": [
-        85,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-<<<<<<< HEAD
         4,
         25,
         26,
@@ -1936,73 +735,11 @@
       ],
       "children": [
         4
-=======
-        16,
-        90,
-        76,
-        9,
-        85,
-        81
-      ]
-    },
-    "42": {
-      "id": 42,
-      "isFile": true,
-      "name": "src/pages/Cardholder/SingleCardHolderDetail.js",
-      "dependencies": [
-        16,
-        62,
-        61,
-        73,
-        74,
-        9
-      ],
-      "levelWiseParents": [
-        85,
-        81,
-        76
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
-        16,
-        90,
-        76,
-        62,
-        96,
-        79,
-        61,
-        94,
-        95,
-        73,
-        74,
-        9,
-        85,
-        81
-      ]
-    },
-    "43": {
-      "id": 43,
-      "isFile": true,
-      "name": "src/pages/Cardholder/SingleCardHolderCardsList.js",
-      "dependencies": [
-        16,
-        61,
-        64,
-        9
-      ],
-      "levelWiseParents": [
-        85,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-<<<<<<< HEAD
         10,
         29,
         23,
@@ -2156,349 +893,11 @@
       "children": [
         11,
         18
-=======
-        16,
-        90,
-        76,
-        61,
-        94,
-        95,
-        64,
-        96,
-        79,
-        9,
-        85,
-        81
-      ]
-    },
-    "44": {
-      "id": 44,
-      "isFile": true,
-      "name": "src/pages/Transactions/TransactionHistory.js",
-      "dependencies": [
-        16,
-        7
-      ],
-      "levelWiseParents": [
-        83,
-        81,
-        76
       ],
       "children": [],
       "level": 3,
       "nearestRootModule": "src",
       "allDependencies": [
-        16,
-        90,
-        76,
-        7,
-        83,
-        81
-      ]
-    },
-    "45": {
-      "id": 45,
-      "isFile": true,
-      "name": "src/pages/Payments/Payments.js",
-      "dependencies": [
-        67,
-        68,
-        61,
-        69,
-        16,
-        10
-      ],
-      "levelWiseParents": [
-        86,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        67,
-        86,
-        81,
-        76,
-        68,
-        61,
-        94,
-        95,
-        69,
-        16,
-        90,
-        10
-      ]
-    },
-    "46": {
-      "id": 46,
-      "isFile": true,
-      "name": "src/pages/Payments/SinglePaymentRequestDetails.js",
-      "dependencies": [
-        16,
-        61,
-        63
-      ],
-      "levelWiseParents": [
-        86,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        61,
-        94,
-        95,
-        63,
-        96,
-        79
-      ]
-    },
-    "47": {
-      "id": 47,
-      "isFile": true,
-      "name": "src/pages/Payments/SinglePaymentPaidDetails.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        86,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": []
-    },
-    "48": {
-      "id": 48,
-      "isFile": true,
-      "name": "src/pages/Commission/Commission.js",
-      "dependencies": [
-        16,
-        8
-      ],
-      "levelWiseParents": [
-        84,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        8,
-        84,
-        81
-      ]
-    },
-    "49": {
-      "id": 49,
-      "isFile": true,
-      "name": "src/pages/Commission/CommissionPaidHistory.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        84,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": []
-    },
-    "50": {
-      "id": 50,
-      "isFile": true,
-      "name": "src/pages/Commission/CommissionUnpaidHistory.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        84,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": []
-    },
-    "51": {
-      "id": 51,
-      "isFile": true,
-      "name": "src/pages/Cardholder/CardHolderAddCard.js",
-      "dependencies": [
-        16,
-        9
-      ],
-      "levelWiseParents": [
-        85,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        9,
-        85,
-        81
-      ]
-    },
-    "52": {
-      "id": 52,
-      "isFile": true,
-      "name": "src/pages/Commission/SingleUserCommissionDetails.js",
-      "dependencies": [
-        16,
-        8
-      ],
-      "levelWiseParents": [
-        84,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        8,
-        84,
-        81
-      ]
-    },
-    "53": {
-      "id": 53,
-      "isFile": true,
-      "name": "src/pages/Admin/AdminWallet.js",
-      "dependencies": [
-        65,
-        66,
-        16,
-        4,
-        6
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        65,
-        82,
-        81,
-        76,
-        66,
-        16,
-        90,
-        4,
-        78,
-        79,
-        6
-      ]
-    },
-    "54": {
-      "id": 54,
-      "isFile": true,
-      "name": "src/pages/Cardholder/SingleCardDetails.js",
-      "dependencies": [
-        16,
-        61,
-        62,
-        63,
-        18,
-        9
-      ],
-      "levelWiseParents": [
-        85,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        61,
-        94,
-        95,
-        62,
-        96,
-        79,
-        63,
-        18,
-        88,
-        89,
-        77,
-        9,
-        85,
-        81
-      ]
-    },
-    "55": {
-      "id": 55,
-      "isFile": true,
-      "name": "src/pages/Cardholder/CardHolderEditCard.js",
-      "dependencies": [
-        16,
-        9
-      ],
-      "levelWiseParents": [
-        85,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        9,
-        85,
-        81
-      ]
-    },
-    "56": {
-      "id": 56,
-      "isFile": true,
-      "name": "src/pages/Cards/CardList.js",
-      "dependencies": [
-        16,
-        61,
-        63,
-        11
-      ],
-      "levelWiseParents": [
-        87,
-        81,
-        76
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-<<<<<<< HEAD
         13,
         32,
         33,
@@ -2622,1594 +1021,10 @@
       "id": 35,
       "isFile": false,
       "name": "src/shared",
-=======
-        16,
-        90,
-        76,
-        61,
-        94,
-        95,
-        63,
-        96,
-        79,
-        11,
-        87,
-        81
-      ]
-    },
-    "57": {
-      "id": 57,
-      "isFile": true,
-      "name": "src/pages/Cards/CardDetails.js",
-      "dependencies": [
-        16,
-        61,
-        62,
-        63,
-        64,
-        9
-      ],
-      "levelWiseParents": [
-        87,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        61,
-        94,
-        95,
-        62,
-        96,
-        79,
-        63,
-        64,
-        9,
-        85,
-        81
-      ]
-    },
-    "58": {
-      "id": 58,
-      "isFile": true,
-      "name": "src/pages/Cards/EditCardDetails.js",
-      "dependencies": [
-        16,
-        9
-      ],
-      "levelWiseParents": [
-        87,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        9,
-        85,
-        81
-      ]
-    },
-    "59": {
-      "id": 59,
-      "isFile": true,
-      "name": "src/pages/Admin/AdminCardDetails.js",
-      "dependencies": [
-        16,
-        61,
-        62,
-        6
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        61,
-        94,
-        95,
-        62,
-        96,
-        79,
-        6,
-        82,
-        81
-      ]
-    },
-    "60": {
-      "id": 60,
-      "isFile": true,
-      "name": "src/pages/Admin/AdminEditCard.js",
-      "dependencies": [
-        16,
-        21,
-        6
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        21,
-        88,
-        89,
-        77,
-        6,
-        82,
-        81
-      ]
-    },
-    "61": {
-      "id": 61,
-      "isFile": true,
-      "name": "src/common/Modals/Modal.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        94,
-        95,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": []
-    },
-    "62": {
-      "id": 62,
-      "isFile": true,
-      "name": "src/components/Popup/SinglePhotoView.js",
-      "dependencies": [],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": []
-    },
-    "63": {
-      "id": 63,
-      "isFile": true,
-      "name": "src/components/Popup/PaymentDetails.js",
-      "dependencies": [
-        16,
-        10
-      ],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        10,
-        86,
-        81
-      ]
-    },
-    "64": {
-      "id": 64,
-      "isFile": true,
-      "name": "src/components/Popup/CardHolderDueAmount.js",
-      "dependencies": [
-        16,
-        10
-      ],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        10,
-        86,
-        81
-      ]
-    },
-    "65": {
-      "id": 65,
-      "isFile": true,
-      "name": "src/pages/Admin/AdminCreditCards.js",
-      "dependencies": [
-        16
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76
-      ]
-    },
-    "66": {
-      "id": 66,
-      "isFile": true,
-      "name": "src/pages/Admin/AdminDebitCards.js",
-      "dependencies": [
-        16
-      ],
-      "levelWiseParents": [
-        82,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76
-      ]
-    },
-    "67": {
-      "id": 67,
-      "isFile": true,
-      "name": "src/pages/Payments/CycleRequests.js",
-      "dependencies": [
-        61,
-        63,
-        72
-      ],
-      "levelWiseParents": [
-        86,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        61,
-        94,
-        95,
-        76,
-        63,
-        96,
-        79,
-        72
-      ]
-    },
-    "68": {
-      "id": 68,
-      "isFile": true,
-      "name": "src/pages/Payments/DepositRequests.js",
-      "dependencies": [
-        61,
-        63,
-        72
-      ],
-      "levelWiseParents": [
-        86,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        61,
-        94,
-        95,
-        76,
-        63,
-        96,
-        79,
-        72
-      ]
-    },
-    "69": {
-      "id": 69,
-      "isFile": true,
-      "name": "src/pages/Payments/WithdrawRequests.js",
-      "dependencies": [
-        61,
-        63,
-        70
-      ],
-      "levelWiseParents": [
-        86,
-        81,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        61,
-        94,
-        95,
-        76,
-        63,
-        96,
-        79,
-        70
-      ]
-    },
-    "70": {
-      "id": 70,
-      "isFile": true,
-      "name": "src/components/Popup/WithdrawPaymentDetails.js",
-      "dependencies": [
-        16,
-        71,
-        61,
-        18,
-        10
-      ],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        71,
-        96,
-        79,
-        61,
-        94,
-        95,
-        18,
-        88,
-        89,
-        77,
-        10,
-        86,
-        81
-      ]
-    },
-    "71": {
-      "id": 71,
-      "isFile": true,
-      "name": "src/components/Popup/Summary.js",
-      "dependencies": [
-        16,
-        10
-      ],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        10,
-        86,
-        81
-      ]
-    },
-    "72": {
-      "id": 72,
-      "isFile": true,
-      "name": "src/components/Popup/DepositPaymentDetails.js",
-      "dependencies": [
-        71,
-        61,
-        16,
-        10
-      ],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        71,
-        96,
-        79,
-        76,
-        61,
-        94,
-        95,
-        16,
-        90,
-        10,
-        86,
-        81
-      ]
-    },
-    "73": {
-      "id": 73,
-      "isFile": true,
-      "name": "src/components/Popup/UserVerify.js",
-      "dependencies": [
-        16,
-        9
-      ],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76,
-        9,
-        85,
-        81
-      ]
-    },
-    "74": {
-      "id": 74,
-      "isFile": true,
-      "name": "src/components/Popup/UserReject.js",
-      "dependencies": [
-        16
-      ],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76
-      ]
-    },
-    "75": {
-      "id": 75,
-      "isFile": true,
-      "name": "src/components/Popup/ChangePassword.js",
-      "dependencies": [
-        16
-      ],
-      "levelWiseParents": [
-        96,
-        79,
-        76
-      ],
-      "children": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "allDependencies": [
-        16,
-        90,
-        76
-      ]
-    },
-    "76": {
-      "id": 76,
-      "isFile": false,
-      "name": "src",
-      "dependencies": [
-        1,
-        2,
-        3,
-        24,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        23,
-        22,
-        21,
-        20,
-        19,
-        18,
-        17,
-        12,
-        13,
-        14,
-        15,
-        16,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        35,
-        34,
-        36,
-        61,
-        62,
-        75,
-        73,
-        74,
-        64,
-        67,
-        68,
-        69,
-        63,
-        65,
-        66,
-        72,
-        70,
-        71
-      ],
-      "level": 0,
-      "nearestRootModule": "src",
-      "levelWiseParents": [],
-      "children": [
-        0,
-        1,
-        2,
-        77,
-        79,
-        81,
-        90,
-        91,
-        95
-      ],
-      "allDependencies": [
-        1,
-        2,
-        3,
-        77,
-        24,
-        91,
-        4,
-        78,
-        79,
-        5,
-        80,
-        81,
-        6,
-        82,
-        7,
-        83,
-        8,
-        84,
-        9,
-        85,
-        10,
-        86,
-        11,
-        87,
-        23,
-        89,
-        22,
-        88,
-        21,
-        20,
-        19,
-        18,
-        17,
-        12,
-        13,
-        90,
-        14,
-        15,
-        16,
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        92,
-        31,
-        32,
-        33,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        35,
-        34,
-        93,
-        36,
-        61,
-        94,
-        95,
-        62,
-        96,
-        75,
-        73,
-        74,
-        64,
-        67,
-        68,
-        69,
-        63,
-        65,
-        66,
-        72,
-        70,
-        71
-      ]
-    },
-    "77": {
-      "id": 77,
-      "isFile": false,
-      "name": "src/redux",
-      "dependencies": [
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        13,
-        14,
-        15,
-        16
-      ],
-      "level": 1,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        76
-      ],
-      "children": [
-        3,
-        89
-      ],
-      "allDependencies": [
-        4,
-        78,
-        79,
-        76,
-        5,
-        80,
-        81,
-        6,
-        82,
-        7,
-        83,
-        8,
-        84,
-        9,
-        85,
-        10,
-        86,
-        11,
-        87,
-        13,
-        90,
-        14,
-        89,
-        15,
-        16
-      ]
-    },
-    "78": {
-      "id": 78,
-      "isFile": false,
-      "name": "src/components/auth",
-      "dependencies": [
-        23,
-        16,
-        4,
-        35,
-        33,
-        36
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        79,
-        76
-      ],
-      "children": [
-        4,
-        25,
-        26,
-        27,
-        28,
-        29,
-        31,
-        32,
-        35,
-        36
-      ],
-      "allDependencies": [
-        23,
-        89,
-        77,
-        76,
-        16,
-        90,
-        4,
-        79,
-        35,
-        33,
-        80,
-        81,
-        36
-      ]
-    },
-    "79": {
-      "id": 79,
-      "isFile": false,
-      "name": "src/components",
-      "dependencies": [
-        23,
-        16,
-        4,
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        33,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        6,
-        35,
-        36,
-        10,
-        71,
-        61,
-        18,
-        9
-      ],
-      "level": 1,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        76
-      ],
-      "children": [
-        78,
-        92,
-        96
-      ],
-      "allDependencies": [
-        23,
-        89,
-        77,
-        76,
-        16,
-        90,
-        4,
-        78,
-        37,
-        85,
-        81,
-        38,
-        82,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        83,
-        45,
-        86,
-        46,
-        47,
-        48,
-        84,
-        49,
-        50,
-        51,
-        52,
-        33,
-        80,
-        53,
-        54,
-        55,
-        56,
-        87,
-        57,
-        58,
-        59,
-        60,
-        6,
-        35,
-        36,
-        10,
-        71,
-        96,
-        61,
-        94,
-        95,
-        18,
-        88,
-        9
-      ]
-    },
-    "80": {
-      "id": 80,
-      "isFile": false,
-      "name": "src/pages/Dashboard",
-      "dependencies": [
-        22,
-        16,
-        34,
-        5
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        81,
-        76
-      ],
-      "children": [
-        5,
-        33,
-        93
-      ],
-      "allDependencies": [
-        22,
-        88,
-        89,
-        77,
-        76,
-        16,
-        90,
-        34,
-        93,
-        81,
-        5
-      ]
-    },
-    "81": {
-      "id": 81,
-      "isFile": false,
-      "name": "src/pages",
-      "dependencies": [
-        22,
-        21,
-        20,
-        19,
-        18,
-        17,
-        12,
-        16,
-        34,
-        5,
-        42,
-        61,
-        62,
-        41,
-        9,
-        75,
-        6,
-        73,
-        74,
-        64,
-        7,
-        67,
-        68,
-        69,
-        10,
-        63,
-        8,
-        65,
-        66,
-        4,
-        11,
-        72,
-        70
-      ],
-      "level": 1,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        76
-      ],
-      "children": [
-        80,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87
-      ],
-      "allDependencies": [
-        22,
-        88,
-        89,
-        77,
-        76,
-        21,
-        20,
-        19,
-        18,
-        17,
-        12,
-        16,
-        90,
-        34,
-        93,
-        80,
-        5,
-        42,
-        85,
-        61,
-        94,
-        95,
-        62,
-        96,
-        79,
-        41,
-        9,
-        75,
-        6,
-        82,
-        73,
-        74,
-        64,
-        7,
-        83,
-        67,
-        86,
-        68,
-        69,
-        10,
-        63,
-        8,
-        84,
-        65,
-        66,
-        4,
-        78,
-        11,
-        87,
-        72,
-        70
-      ]
-    },
-    "82": {
-      "id": 82,
-      "isFile": false,
-      "name": "src/pages/Admin",
-      "dependencies": [
-        21,
-        61,
-        75,
-        16,
-        6,
-        65,
-        66,
-        4,
-        62
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        81,
-        76
-      ],
-      "children": [
-        6,
-        38,
-        39,
-        40,
-        53,
-        59,
-        60,
-        65,
-        66
-      ],
-      "allDependencies": [
-        21,
-        88,
-        89,
-        77,
-        76,
-        61,
-        94,
-        95,
-        75,
-        96,
-        79,
-        16,
-        90,
-        6,
-        81,
-        65,
-        66,
-        4,
-        78,
-        62
-      ]
-    },
-    "83": {
-      "id": 83,
-      "isFile": false,
-      "name": "src/pages/Transactions",
-      "dependencies": [
-        20,
-        16,
-        7
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        81,
-        76
-      ],
-      "children": [
-        7,
-        44
-      ],
-      "allDependencies": [
-        20,
-        88,
-        89,
-        77,
-        76,
-        16,
-        90,
-        7,
-        81
-      ]
-    },
-    "84": {
-      "id": 84,
-      "isFile": false,
-      "name": "src/pages/Commission",
-      "dependencies": [
-        19,
-        16,
-        8
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        81,
-        76
-      ],
-      "children": [
-        8,
-        48,
-        49,
-        50,
-        52
-      ],
-      "allDependencies": [
-        19,
-        88,
-        89,
-        77,
-        76,
-        16,
-        90,
-        8,
-        81
-      ]
-    },
-    "85": {
-      "id": 85,
-      "isFile": false,
-      "name": "src/pages/Cardholder",
-      "dependencies": [
-        18,
-        16,
-        42,
-        61,
-        62,
-        41,
-        5,
-        9,
-        73,
-        74,
-        64,
-        63
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        81,
-        76
-      ],
-      "children": [
-        9,
-        37,
-        41,
-        42,
-        43,
-        51,
-        54,
-        55
-      ],
-      "allDependencies": [
-        18,
-        88,
-        89,
-        77,
-        76,
-        16,
-        90,
-        42,
-        81,
-        61,
-        94,
-        95,
-        62,
-        96,
-        79,
-        41,
-        5,
-        80,
-        9,
-        73,
-        74,
-        64,
-        63
-      ]
-    },
-    "86": {
-      "id": 86,
-      "isFile": false,
-      "name": "src/pages/Payments",
-      "dependencies": [
-        17,
-        67,
-        68,
-        61,
-        69,
-        16,
-        10,
-        63,
-        72,
-        70
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        81,
-        76
-      ],
-      "children": [
-        10,
-        45,
-        46,
-        47,
-        67,
-        68,
-        69
-      ],
-      "allDependencies": [
-        17,
-        88,
-        89,
-        77,
-        76,
-        67,
-        81,
-        68,
-        61,
-        94,
-        95,
-        69,
-        16,
-        90,
-        10,
-        63,
-        96,
-        79,
-        72,
-        70
-      ]
-    },
-    "87": {
-      "id": 87,
-      "isFile": false,
-      "name": "src/pages/Cards",
-      "dependencies": [
-        12,
-        16,
-        61,
-        63,
-        11,
-        62,
-        64,
-        9
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        81,
-        76
-      ],
-      "children": [
-        11,
-        56,
-        57,
-        58
-      ],
-      "allDependencies": [
-        12,
-        88,
-        89,
-        77,
-        76,
-        16,
-        90,
-        61,
-        94,
-        95,
-        63,
-        96,
-        79,
-        11,
-        81,
-        62,
-        64,
-        9,
-        85
-      ]
-    },
-    "88": {
-      "id": 88,
-      "isFile": false,
-      "name": "src/redux/services/paymentServices",
-      "dependencies": [
-        13,
-        14,
-        15
-      ],
-      "level": 3,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        89,
-        77,
-        76
-      ],
-      "children": [
-        12,
-        17,
-        18,
-        19,
-        20,
-        21,
-        22
-      ],
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        89,
-        77,
-        15
-      ]
-    },
-    "89": {
-      "id": 89,
-      "isFile": false,
-      "name": "src/redux/services",
-      "dependencies": [
-        13,
-        14,
-        15,
-        16
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        77,
-        76
-      ],
-      "children": [
-        88,
-        14,
-        15,
-        23
-      ],
-      "allDependencies": [
-        13,
-        90,
-        76,
-        14,
-        77,
-        15,
-        16
-      ]
-    },
-    "90": {
-      "id": 90,
-      "isFile": false,
-      "name": "src/api",
       "dependencies": [],
       "level": 1,
       "nearestRootModule": "src",
       "levelWiseParents": [
-        76
-      ],
-      "children": [
-        13,
-        16
-      ],
-      "allDependencies": []
-    },
-    "91": {
-      "id": 91,
-      "isFile": false,
-      "name": "src/routes",
-      "dependencies": [
-        25,
-        26,
-        27,
-        28,
-        29,
-        30,
-        31,
-        32,
-        33
-      ],
-      "level": 1,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        76
-      ],
-      "children": [
-        24
-      ],
-      "allDependencies": [
-        25,
-        78,
-        79,
-        76,
-        26,
-        27,
-        28,
-        29,
-        30,
-        92,
-        31,
-        32,
-        33,
-        80,
-        81
-      ]
-    },
-    "92": {
-      "id": 92,
-      "isFile": false,
-      "name": "src/components/SideBar",
-      "dependencies": [
-        37,
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        45,
-        46,
-        47,
-        48,
-        49,
-        50,
-        51,
-        52,
-        16,
-        33,
-        53,
-        54,
-        55,
-        56,
-        57,
-        58,
-        59,
-        60,
-        6,
-        4
-      ],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        79,
-        76
-      ],
-      "children": [
-        30
-      ],
-      "allDependencies": [
-        37,
-        85,
-        81,
-        76,
-        38,
-        82,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        83,
-        45,
-        86,
-        46,
-        47,
-        48,
-        84,
-        49,
-        50,
-        51,
-        52,
-        16,
-        90,
-        33,
-        80,
-        53,
-        54,
-        55,
-        56,
-        87,
-        57,
-        58,
-        59,
-        60,
-        6,
-        4,
-        78,
-        79
-      ]
-    },
-    "93": {
-      "id": 93,
-      "isFile": false,
-      "name": "src/pages/Dashboard/services",
-      "dependencies": [],
-      "level": 3,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        80,
-        81,
-        76
-      ],
-      "children": [
-        34
-      ],
-      "allDependencies": []
-    },
-    "94": {
-      "id": 94,
-      "isFile": false,
-      "name": "src/common/Modals",
-      "dependencies": [],
-      "level": 2,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-        95,
-        76
-      ],
-      "children": [
-        61
-      ],
-      "allDependencies": []
-    },
-    "95": {
-      "id": 95,
-      "isFile": false,
-      "name": "src/common",
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
-      "dependencies": [],
-      "level": 1,
-      "nearestRootModule": "src",
-      "levelWiseParents": [
-<<<<<<< HEAD
         23
       ],
       "children": [
@@ -4225,31 +1040,10 @@
         10,
         11,
         12
-=======
-        76
-      ],
-      "children": [
-        94
-      ],
-      "allDependencies": []
-    },
-    "96": {
-      "id": 96,
-      "isFile": false,
-      "name": "src/components/Popup",
-      "dependencies": [
-        16,
-        10,
-        71,
-        61,
-        18,
-        9
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ],
       "level": 2,
       "nearestRootModule": "src",
       "levelWiseParents": [
-<<<<<<< HEAD
         31,
         23
       ],
@@ -4264,40 +1058,6 @@
         30,
         31,
         12
-=======
-        79,
-        76
-      ],
-      "children": [
-        62,
-        63,
-        64,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75
-      ],
-      "allDependencies": [
-        16,
-        90,
-        76,
-        10,
-        86,
-        81,
-        71,
-        79,
-        61,
-        94,
-        95,
-        18,
-        88,
-        89,
-        77,
-        9,
-        85
->>>>>>> 687dfbe95a85a598506cd33ec7daeee12fefb238
       ]
     }
   }
