@@ -4,7 +4,7 @@ import _range from 'lodash/range';
 import PropTypes from 'prop-types';
 import _parseInt from 'lodash/parseInt';
 
-const MAX_LEVELS_TO_DISPLAY = 3;
+const MAX_LEVELS_TO_DISPLAY = 2;
 
 // eslint-disable-next-line prefer-arrow-callback
 const LevelSwitcher = memo(function LevelSwitcher({ visualizeLevelGraph }) {

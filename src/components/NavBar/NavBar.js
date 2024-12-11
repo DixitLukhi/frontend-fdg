@@ -29,7 +29,7 @@ const NavBar = memo(function NavBar({
         currentInteractionIndex={currentInteractionIndex}
         showPreviousInteraction={showPreviousInteraction}
       />
-      <div className="title">Dependency Graph Visualizer</div>
+      <div className="title">Dependency Graph Construction</div>
       <LevelSwitcher visualizeLevelGraph={visualizeLevelGraph} />
     </div>
   );
