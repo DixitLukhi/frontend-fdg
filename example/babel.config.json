@@ -6,7 +6,7 @@
     ],
     "plugins": [
       ["module-resolver", {
-        "root": ["./src"],
+        "root": ["src"],
         "extensions": [
           ".native.js", ".native.jsx", ".native.ts", ".native.tsx", 
           ".web.js", ".web.jsx", ".web.ts", ".web.tsx",

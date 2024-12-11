@@ -12,7 +12,8 @@ const useLevelGraphVisualization = ({
 }) => {
   const visualizeLevelGraph = useCallback(
     level => {
-      const levelNodes = getLevelNodes(level);
+      const levelNodes = getLevelNodes(level === 0 ? 1 : level === 1 ? 2 : 3);
+      
       updateNodes(levelNodes);
       updateHiddenNodes([]);
       updateNodesHistory(prevNodesHistory => [
